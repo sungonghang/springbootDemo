@@ -1,0 +1,16 @@
+server:
+  port: 8996
+  servlet:
+    context-path: /demodev
+  tomcat:
+    accept-count: 100
+    max-connections: 200
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:localhost:3006/springboot-demo?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+
+
