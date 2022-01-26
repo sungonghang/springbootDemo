@@ -42,6 +42,32 @@ git的相关操作
 4.生成公钥 ssh-keygen -t rsa -C "邮箱"
 5.测试连通性 ssh -T git@github.com 
 
+git将本地项目推送到远程仓库
+  git init 
+  git add .
+  git commit -m "**"
+  git remote add origin  git@github.com:sungonghang/springbootDemo.git
+  git push -u origin master
+
+将文件添加到暂存区
+git add <文件.后缀>
+git add <文件1.后缀 文件2.后缀>
+git add .   /*所有文件*/  将文件的修改、文件的新建，添加到暂存区
+git add -A  /*所有文件*/  将文件的修改，文件的新建、文件的删除，添加到暂存区
+git add -u  /*所有文件*/  将文件的修改、文件额删除,添加到暂存区
+git add --all  /*所有文件*/
+
+提交暂存区文件到本地库
+git commit -m"提交说明" <文件.后缀>
+git commit -m"提交说明"  /*提交暂存区所有文件*/
+
+查看本地库日志文件
+git log 查看详情的日志
+git log --oneline 查看简介的日志 简介的索引值
+git log --pretty=oneline 查看简介日志 完成的索引值
+
+
+
       
 
 
