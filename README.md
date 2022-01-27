@@ -66,6 +66,10 @@ git log 查看详情的日志
 git log --oneline 查看简介的日志 简介的索引值
 git log --pretty=oneline 查看简介日志 完成的索引值
 
+版本回退
+git reset --hard <索引值>
+git reset --hard HEAD^ /* 一个^代表后退一步，有几个就代表后退几步，只能后退*/
+git reset --hard HEAD~<步数> /*根据步数后退，只能后退*/
 
 
       
