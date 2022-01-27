@@ -70,6 +70,15 @@ git log --pretty=oneline 查看简介日志 完成的索引值
 git reset --hard <索引值>
 git reset --hard HEAD^ /* 一个^代表后退一步，有几个就代表后退几步，只能后退*/
 git reset --hard HEAD~<步数> /*根据步数后退，只能后退*/
+git push -f 强制推送,将远程仓库进行覆盖
+
+分支操作
+git branch 查看本地分支
+git branch -r 查看远程分支
+git branch -a 查看全部分支
+git branch branch1  新建分支branch1
+git checkout -b branch1 新建分支branch1，并切换到分支branch1
+
 
 
       
