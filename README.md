@@ -78,6 +78,11 @@ git branch -r 查看远程分支
 git branch -a 查看全部分支
 git branch branch1  新建分支branch1
 git checkout -b branch1 新建分支branch1，并切换到分支branch1
+git push --set-upstream origin dev 将本地的div分支推送到远程
+git push --set-upstream origin beta 将本地beta分支推送到远程
+git pull origin master 拉取远程master分支到本地
+git merge dev 将dev分支合并到master分支
+git push origin master 将本地更新后的master合并到远程
 
 
 
