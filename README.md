@@ -86,6 +86,15 @@ git push origin master 将本地更新后的master合并到远程
 git branch -d dev 删除本地dev分支
 git push origin --delete dev 删除远程dev分支
 
+git版本发布
+git tag -a <tagname> -m "add description release notes " #创建标签
+git tag -l #查看标签
+git tag -d <tagname> #删除标签
+git push origin <tagname> #推送一个本地标签到远程仓库
+git push origin --tags #推送全部未推送过的本地标签
+git push origin :refs/tags/<tagname> #删除远程便签
+
+
 
 
 
