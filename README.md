@@ -83,7 +83,8 @@ git push --set-upstream origin beta 将本地beta分支推送到远程
 git pull origin master 拉取远程master分支到本地
 git merge dev 将dev分支合并到master分支
 git push origin master 将本地更新后的master合并到远程
-
+git branch -d dev 删除本地dev分支
+git push origin --delete dev 删除远程dev分支
 
 
 
