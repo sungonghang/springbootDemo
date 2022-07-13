@@ -46,7 +46,7 @@ mvn clean install -e -U   -e详细异常,-U强制更新
  * 3.将暂存区放置本地仓库`git commit -m "**"`
  * 4.与远程分支建立连接 `git remote add origin  git@github.com:sungonghang/springbootDemo.git`
  * 5.将代码推送到远程仓库 `git push -u origin master` \
- 注意在将代码推送到远程仓库的时候，如果在创建仓库的时候有README文件，推送时会报错failed to push some refs to https://github.com/ghsun/TEST.git,这是因为新创建的那个仓库里面的README文件不在本地仓库目录中，这时可以通过以下命令先将内容合并以下：`git pull --rebase origin master`
+ 注意在将代码推送到远程仓库的时候，如果在创建仓库的时候有README文件，推送时会报错\failed to push some refs to https://github.com/ghsun/TEST.git,这是因为新创建的那个仓库里面的README文件不在本地仓库目录中，这时可以通过以下命令先将内容合并以下：`git pull --rebase origin master`
 ### 将文件添加到暂存区
 ```
 git add <文件.后缀>
